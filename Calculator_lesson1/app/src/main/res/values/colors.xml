@@ -11,4 +11,5 @@
     <color name="tomato">#FF6347</color>
     <color name="medium_purpue">#9370DB</color>
     <color name="light_sky_blue">#DDA0DD</color>
+    <color name="text_view_color">#E0FFFF</color>
 </resources>
