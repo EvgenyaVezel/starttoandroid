@@ -19,7 +19,7 @@
         android:layout_gravity="center"
         android:columnCount="4"
 
-        tools:context=".MainActivity">
+        tools:context=".UI.MainActivity">
 
         <TextView
             android:id="@+id/view_resut"

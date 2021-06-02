@@ -1,4 +1,4 @@
-package com.example.calculator_lesson1;
+package com.example.calculator_lesson1.Domain;
 
 public interface Calculatable {
 

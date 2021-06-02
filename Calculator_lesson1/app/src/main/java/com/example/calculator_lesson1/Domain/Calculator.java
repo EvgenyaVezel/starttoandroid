@@ -1,4 +1,4 @@
-package com.example.calculator_lesson1;
+package com.example.calculator_lesson1.Domain;
 
 import android.os.Parcel;
 import android.os.Parcelable;
