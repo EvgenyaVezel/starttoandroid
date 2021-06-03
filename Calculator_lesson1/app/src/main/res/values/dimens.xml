@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="text_view_height">60dp</dimen>
-    <dimen name="butn_width">80dp</dimen>
+    <dimen name="butn_width">60dp</dimen>
     <dimen name="butn_margin">2dp</dimen>
     <dimen name="textsize_text_view">20sp</dimen>
+    <dimen name="textsize_switch">12sp</dimen>
+    <dimen name="butn_height">60dp</dimen>
+    <dimen name="corner_radius">100dp</dimen>
+    <dimen name="text_vview_margintop">10dp</dimen>
+
 </resources>

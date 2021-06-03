@@ -12,4 +12,13 @@
     <color name="medium_purpue">#9370DB</color>
     <color name="light_sky_blue">#DDA0DD</color>
     <color name="text_view_color">#E0FFFF</color>
+    <color name="stroke_color">#e8cfa9</color>
+    <color name="stroke_color_land">#89776B</color>
+    <color name="dark_purpe">#2e2a57</color>
+    <color name="dark_gray">#2e2d3d</color>
+    <color name="dark_green">#0a474f</color>
+    <color name="dark_blue">#161c57</color>
+    <color name="grey">#555761</color>
+
+    
 </resources>
