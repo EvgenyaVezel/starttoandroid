@@ -18,6 +18,10 @@
     <string name="btn_clear">C</string>
     <string name="btn_del"><![CDATA[<-]]></string>
     <string name="btn_procent">%</string>
-    <string name="btn_equally">=</string>9370DB
+    <string name="btn_equally">=</string>
+    <string name="switch_dark">dark</string>
+    <string name="switch_light">light</string>
+    <string name="theme">theme</string>
+
 
 </resources>

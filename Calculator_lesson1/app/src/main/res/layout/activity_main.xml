@@ -7,177 +7,202 @@
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
         android:layout_width="800dp"
         android:layout_height="match_parent"
         android:scaleType="center"
         android:src="@drawable/ic_feather_1689331"/>
 
-    <GridLayout
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "right"
+        style="@style/switch_style"
+        android:checked="false"
+        android:text="@string/theme"
 
+        />
+
+    <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:columnCount="4"
-
         tools:context=".UI.MainActivity">
 
-        <TextView
+
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/view_resut"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/text_view_height"
             android:layout_columnSpan="4"
-            android:textStyle="bold"
-            android:textColor="@color/purple_500"
-            android:textSize="@dimen/textsize_text_view"
-            android:layout_gravity="fill_horizontal"
-            android:background="@color/white"/>
+            style="@style/text_view_style_text"
+            android:layout_gravity="fill_horizontal"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_clear"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/butn_width"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn_clear"
             android:backgroundTint="@color/tomato"
             android:textStyle="bold"/>
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_del"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn_del"
             android:backgroundTint="@color/medium_purpue"
             android:textStyle="bold"/>
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_procent"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn_procent"
             android:backgroundTint="@color/medium_purpue"
             android:textStyle="bold"/>
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_equally"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn_equally"
             android:backgroundTint="@color/light_sky_blue"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_1"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn1"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_2"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn2"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_3"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn3"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_mult"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn_mutiply"
             android:backgroundTint="@color/medium_purpue"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_4"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn4"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_5"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn5"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_6"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn6"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_split"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="2dp"
             android:text="@string/btn_split"
             android:backgroundTint="@color/medium_purpue"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_7"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn7"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_8"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn8"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_9"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn9"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_taway"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn_taway"
             android:backgroundTint="@color/medium_purpue"
             android:textStyle="bold"/>
 
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_0"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
             android:layout_margin="2dp"
@@ -185,18 +210,20 @@
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_dot"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="2dp"
             android:text="@string/btn_dot"
             android:backgroundTint="@color/thistle"
             android:textStyle="bold"/>
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_add"
             android:layout_width="@dimen/butn_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/butn_height"
+            style="@style/calculator_button_style"
             android:layout_margin="@dimen/butn_margin"
             android:text="@string/btn_add"
             android:backgroundTint="@color/medium_purpue"
