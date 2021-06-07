@@ -8,5 +8,6 @@
     <dimen name="butn_height">60dp</dimen>
     <dimen name="corner_radius">100dp</dimen>
     <dimen name="text_vview_margintop">10dp</dimen>
+    <dimen name="settings_margintop">15dp</dimen>
 
 </resources>

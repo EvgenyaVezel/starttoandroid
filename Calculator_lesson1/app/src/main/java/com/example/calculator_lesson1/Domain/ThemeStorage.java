@@ -10,7 +10,6 @@ public class ThemeStorage {
 
     private static final String KEY_THEME = "KEY_THEME";
 
-
     private SharedPreferences sharedPreferences;
 
     public ThemeStorage(Context context) {
