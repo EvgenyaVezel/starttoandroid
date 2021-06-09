@@ -22,6 +22,9 @@
     <string name="switch_dark">dark</string>
     <string name="switch_light">light</string>
     <string name="theme">theme</string>
+    <string name="setting_theme">Settings</string>
+    <string name="return_btn">return</string>
+    <string name="settings">settings</string>
 
 
 </resources>

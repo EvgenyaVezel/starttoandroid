@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.SettingsActivity"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id="@+id/setting_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/text_vview_margintop"
+        android:text="@string/setting_theme"
+        android:padding="@dimen/text_vview_margintop"
+        style="@style/text_view_style_text"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/setting_view"
+        style="@style/switch_style"
+        android:text="@string/theme"
+        android:padding="@dimen/text_vview_margintop"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/return_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/return_btn"
+        style="@style/calculator_button_style"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
